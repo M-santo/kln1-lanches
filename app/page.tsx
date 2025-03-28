@@ -12,7 +12,7 @@ const bolos = [
     id: "bolo-1",
     name: "Bolo de Chocolate",
     description: "Delicioso bolo de chocolate com cobertura especial",
-    price: "R$ 45,00",
+    price: "",
     imageSrc: "/bolo-de-choco.jpg?height=300&width=300",
     category: "Bolos",
   },
@@ -20,7 +20,7 @@ const bolos = [
     id: "bolo-2",
     name: "Bolo de Cenoura",
     description: "Bolo de cenoura com cobertura de chocolate",
-    price: "R$ 40,00",
+    price: "",
     imageSrc: "/bolo-de-cenoura.jpg?height=300&width=300",
     category: "Bolos",
   },
@@ -28,7 +28,7 @@ const bolos = [
     id: "bolo-3",
     name: "Bolo de festa",
     description: "Bolo recheado com morangos frescos e chantilly",
-    price: "R$ 100,00",
+    price: "",
     imageSrc: "/bolo-de-festa-decorado.jpg?height=300&width=300",
     category: "Bolos",
   },
@@ -36,7 +36,7 @@ const bolos = [
     id: "bolo-4",
     name: "Bolo de Coco",
     description: "Bolo de coco com cobertura de leite condensado",
-    price: "R$ 45,00",
+    price: "",
     imageSrc: "/bolo_coco.webp?height=300&width=300",
     category: "Bolos",
   },
@@ -47,7 +47,7 @@ const salgados = [
     id: "salgado-1",
     name: "Coxinha",
     description: "Coxinha de frango cremosa",
-    price: "R$ 3,50",
+    price: "",
     imageSrc: "/coxinha-de-frango.jpg?height=300&width=300",
     category: "Salgados",
   },
@@ -55,7 +55,7 @@ const salgados = [
     id: "salgado-2",
     name: "Empada",
     description: "Empada de frango com massa especial",
-    price: "R$ 3,50",
+    price: "",
     imageSrc: "/empada.jpg?height=300&width=300",
     category: "Salgados",
   },
@@ -63,7 +63,7 @@ const salgados = [
     id: "salgado-3",
     name: "Kibe",
     description: "Kibe recheado com queijo",
-    price: "R$ 3,50",
+    price: "",
     imageSrc: "/kibe.jpg?height=300&width=300",
     category: "Salgados",
   },
@@ -71,7 +71,7 @@ const salgados = [
     id: "salgado-4",
     name: "Pastel",
     description: "Pastel de carne com massa crocante",
-    price: "R$ 3,50",
+    price: "",
     imageSrc: "/pastel-de-carne.jpg?height=300&width=300",
     category: "Salgados",
   },
@@ -82,7 +82,7 @@ const doces = [
     id: "doce-1",
     name: "Brigadeiro",
     description: "Brigadeiro gourmet com chocolate belga",
-    price: "R$ 3,50",
+    price: "",
     imageSrc: "/brigadeiro.jpg?height=300&width=300",
     category: "Doces",
   },
@@ -90,7 +90,7 @@ const doces = [
     id: "doce-2",
     name: "Pudim",
     description: "Pudim de leite condensado cremoso",
-    price: "R$ 8,00",
+    price: "",
     imageSrc: "/pudim.jpg?height=300&width=300",
     category: "Doces",
   },
@@ -98,7 +98,7 @@ const doces = [
     id: "doce-3",
     name: "Mousse de Maracujá",
     description: "Mousse de maracujá com calda especial",
-    price: "R$ 3,50",
+    price: "",
     imageSrc: "/mouse-de-maracuja.jpg?height=300&width=300",
     category: "Doces",
   },
@@ -331,9 +331,9 @@ export default function Home() {
               </div>
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden">
-              {/* Aqui você pode adicionar um mapa do Google ou uma imagem da fachada */}
+            <img src="/frente2.jpeg" alt="Fachada KLN Lanches" className="w-full h-full object-cover" />
               <Image
-                src="/Captura.png?height=400&width=600"
+                src="/frente.jpeg?height=400&width=600"
                 alt="Localização KLN-Lanches"
                 fill
                 className="object-cover"
