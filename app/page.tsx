@@ -106,7 +106,7 @@ const doces = [
     id: "doce-4",
     name: "Beijinho",
     description: "Beijinho de coco com cravinho",
-    price: "R$ 3,50",
+    price: "",
     imageSrc: "/beijinho-de-coco-2.webp?height=300&width=300",
     category: "Doces",
   },

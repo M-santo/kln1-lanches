@@ -50,7 +50,7 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-300">
               <li>Segunda a Sexta: 8h às 19h</li>
               <li>Sábado: 8h às 18h</li>
-              <li>Domingo: 8h às 12h</li>
+              
             </ul>
           </div>
         </div>
