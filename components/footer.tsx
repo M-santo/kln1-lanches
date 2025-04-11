@@ -12,19 +12,38 @@ export default function Footer() {
               Deliciosos bolos, salgados e doces para todas as ocasiões. Aceitamos encomendas!
             </p>
             <div className="flex space-x-4">
-              <Link href="https://facebook.com" className="text-gray-300 hover:text-kln-green">
+              <Link
+                href="https://facebook.com"
+                className="text-gray-300 hover:text-kln-green"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Facebook"
+              >
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link href="https://instagram.com" className="text-gray-300 hover:text-kln-green">
+              <Link
+                href="https://instagram.com"
+                className="text-gray-300 hover:text-kln-green"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Instagram"
+              >
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="https://wa.me/5561992639087" className="text-gray-300 hover:text-kln-green">
+              <Link
+                href="https://wa.me/5561992639087"
+                className="text-gray-300 hover:text-kln-green"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="WhatsApp"
+              >
                 <WhatsApp className="h-5 w-5" />
                 <span className="sr-only">WhatsApp</span>
               </Link>
             </div>
+
           </div>
           <div>
             <h3 className="text-lg font-bold text-kln-green mb-4">Contato</h3>

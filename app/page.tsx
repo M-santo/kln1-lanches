@@ -12,7 +12,7 @@ const bolos = [
     id: "bolo-1",
     name: "Bolo de Chocolate",
     description: "Delicioso bolo de chocolate com cobertura especial",
-    price: "",
+    price: "Sob consulta",
     imageSrc: "/bolo-de-choco.jpg?height=300&width=300",
     category: "Bolos",
   },
@@ -20,7 +20,7 @@ const bolos = [
     id: "bolo-2",
     name: "Bolo de Cenoura",
     description: "Bolo de cenoura com cobertura de chocolate",
-    price: "",
+    price: "Sob consulta",
     imageSrc: "/bolo-de-cenoura.jpg?height=300&width=300",
     category: "Bolos",
   },
@@ -28,7 +28,7 @@ const bolos = [
     id: "bolo-3",
     name: "Bolo de festa",
     description: "Bolo recheado com morangos frescos e chantilly",
-    price: "",
+    price: "Sob consulta",
     imageSrc: "/bolo-de-festa-decorado.jpg?height=300&width=300",
     category: "Bolos",
   },
@@ -36,7 +36,7 @@ const bolos = [
     id: "bolo-4",
     name: "Bolo de Coco",
     description: "Bolo de coco com cobertura de leite condensado",
-    price: "",
+    price: "Sob consulta",
     imageSrc: "/bolo_coco.webp?height=300&width=300",
     category: "Bolos",
   },
@@ -47,7 +47,7 @@ const salgados = [
     id: "salgado-1",
     name: "Coxinha",
     description: "Coxinha de frango cremosa",
-    price: "",
+    price: "Sob consulta",
     imageSrc: "/coxinha-de-frango.jpg?height=300&width=300",
     category: "Salgados",
   },
@@ -55,7 +55,7 @@ const salgados = [
     id: "salgado-2",
     name: "Empada",
     description: "Empada de frango com massa especial",
-    price: "",
+    price: "Sob consulta",
     imageSrc: "/empada.jpg?height=300&width=300",
     category: "Salgados",
   },
@@ -63,7 +63,7 @@ const salgados = [
     id: "salgado-3",
     name: "Kibe",
     description: "Kibe recheado com queijo",
-    price: "",
+    price: "Sob consulta",
     imageSrc: "/kibe.jpg?height=300&width=300",
     category: "Salgados",
   },
@@ -71,7 +71,7 @@ const salgados = [
     id: "salgado-4",
     name: "Pastel",
     description: "Pastel de carne com massa crocante",
-    price: "",
+    price: "Sob consulta",
     imageSrc: "/pastel-de-carne.jpg?height=300&width=300",
     category: "Salgados",
   },
@@ -82,7 +82,7 @@ const doces = [
     id: "doce-1",
     name: "Brigadeiro",
     description: "Brigadeiro gourmet com chocolate belga",
-    price: "",
+    price: "Sob consulta",
     imageSrc: "/brigadeiro.jpg?height=300&width=300",
     category: "Doces",
   },
@@ -90,7 +90,7 @@ const doces = [
     id: "doce-2",
     name: "Pudim",
     description: "Pudim de leite condensado cremoso",
-    price: "",
+    price: "Sob consulta",
     imageSrc: "/pudim.jpg?height=300&width=300",
     category: "Doces",
   },
@@ -98,7 +98,7 @@ const doces = [
     id: "doce-3",
     name: "Mousse de Maracujá",
     description: "Mousse de maracujá com calda especial",
-    price: "",
+    price: "Sob consulta",
     imageSrc: "/mouse-de-maracuja.jpg?height=300&width=300",
     category: "Doces",
   },
@@ -106,7 +106,7 @@ const doces = [
     id: "doce-4",
     name: "Beijinho",
     description: "Beijinho de coco com cravinho",
-    price: "",
+    price: "Sob consulta",
     imageSrc: "/beijinho-de-coco-2.webp?height=300&width=300",
     category: "Doces",
   },
@@ -331,13 +331,16 @@ export default function Home() {
               </div>
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden">
-            <img src="/frente2.jpeg" alt="Fachada KLN Lanches" className="w-full h-full object-cover" />
-              <Image
-                src="/frente.jpeg?height=400&width=600"
-                alt="Localização KLN-Lanches"
-                fill
-                className="object-cover"
-              />
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!4v1744393312307!6m8!1m7!1syE1bXSe01uH7JR8Fz_-CXA!2m2!1d-15.74747314551815!2d-48.25150129707544!3f293.75906!4f0!5f0.7820865974627469"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full h-full"
+                title="Localização KLN Lanches"
+              ></iframe>
             </div>
           </div>
         </div>
